@@ -13,7 +13,7 @@ function return3Largest(arr){
         else if(arr[i] > second && arr[i] < largest){
             second = arr[i]
         }
-        else if(arr[i] > third && arr[i] < second){
+        else if(arr[i] >= third && arr[i] < second){
             third = arr[i]
         }
     }
